@@ -1,4 +1,6 @@
-Autograding - Pseudo-class Selectorson:
+name: Autograding - Pseudo-class Selectors
+
+on:
   push:
   workflow_dispatch:
 
@@ -12,6 +14,11 @@ jobs:
     steps:
       - name: Checkout student code
         uses: actions/checkout@v4
+
+      - name: Check repository files
+        run: |
+          echo "Files in repository:"
+          ls -la
 
       - name: Make test script executable
         run: chmod +x test.sh
