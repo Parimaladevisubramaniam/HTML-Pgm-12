@@ -1,0 +1,27 @@
+/* Pseudo-class and pseudo-element selector assignment */
+/* Students: complete the CSS rules below. Do not change index.html. */
+
+body {
+    /* Add font-family, font-size and margin */
+}
+
+a {
+    /* Make all hyperlinks bold */
+}
+
+a:link {
+    /* Set unvisited links to green */
+}
+
+a:hover,
+a:focus {
+    /* Set hovered/focused links to fuchsia */
+}
+
+main p:first-child {
+    /* Make the first paragraph bold */
+}
+
+main p:first-child::first-letter {
+    /* Set the first letter size to 150% */
+}
