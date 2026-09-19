@@ -1,6 +1,4 @@
-Autograding - Pseudo-class Selectors
-
-on:
+Autograding - Pseudo-class Selectorson:
   push:
   workflow_dispatch:
 
