@@ -1,0 +1,22 @@
+Autograding - Pseudo-class Selectors
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout student code
+        uses: actions/checkout@v4
+
+      - name: Make test script executable
+        run: chmod +x test.sh
+
+      - name: Run autograder
+        run: ./test.sh
