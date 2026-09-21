@@ -2,26 +2,14 @@
 /* Students: complete the CSS rules below. Do not change index.html. */
 
 body {
-    /* Add font-family, font-size and margin */
-}
 
-a {
-    /* Make all hyperlinks bold */
-}
+font-family: Arial, Helvetica, sans-serif;
+font-size: 87.5%;
+margin: 2em; }
+a { font-weight: bold; }
+a:link { color: green; }
+a:hover, a:focus { color: fuchsia; }
 
-a:link {
-    /* Set unvisited links to green */
-}
+main p:first-child { font-weight: bold; }
+main p:first-child::first-letter { font-size: 150%; }
 
-a:hover,
-a:focus {
-    /* Set hovered/focused links to fuchsia */
-}
-
-main p:first-child {
-    /* Make the first paragraph bold */
-}
-
-main p:first-child::first-letter {
-    /* Set the first letter size to 150% */
-}
